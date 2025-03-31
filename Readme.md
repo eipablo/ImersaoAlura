@@ -17,7 +17,7 @@ Acesse a pasta da aula desejada e abra os arquivos .html no navegador.
 Para editar, use um editor como VS Code e execute com extensões como Live Server.
 
 # 🙏 Créditos
-Todo o conteúdo foi desenvolvido com base nas aulas da 9ª Imersão Dev da Alura (@alura).
+Todo o conteúdo foi desenvolvido com base nas aulas da 9ª Imersão Dev da [Alura](https://cursos.alura.com.br/imersao).
 
 
 # Feito por [Pablo Vinícius Silva Souza](https://github.com/eipablo)
