@@ -43,7 +43,7 @@ body {
     margin-bottom: 20px;
     }
     
-  /* Button Styles */
+/* Button Styles */
     button {
     background-color: #ff1b7b;
     border: none;
@@ -54,7 +54,7 @@ body {
     transition: background-color 0.3s ease;
     }
     
-    button:hover {
+button:hover {
     background-color: #1ABC9C;
     }
 
