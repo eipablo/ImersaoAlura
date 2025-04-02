@@ -9,7 +9,7 @@ function jogar() {
     alert("Você pode jogar!");
 
     escolhaJogador = prompt("Digite 1 - Tesoura, 2 - Pedra, 3 - Papel");
-    escolhaComputador = Math.floor(Math.random() * 3) + 1;
+    escolhaComputador = Math.floor(Math.random() * 3) + 1; 
 
     if (escolhaJogador == "1") {
         alert("Você escolheu Tesoura");

@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+    }
+    
+  /* Logo Styles */
+    .logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    max-width: 40px;
+    width: auto;
+    }
+
+    .logo:hover{
+        cursor: pointer;
+        
+    }
+
+    /* Container with the background image */
+    .container {
+    background: url('https://wallpapers.com/images/hd/design-black-background-1920-x-1080-i0h8bflcsrl5pguc.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+  /* Content div for text and button */
+    .content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+    }
+
+    .content h2 {
+    margin-bottom: 20px;
+    }
+    
+  /* Button Styles */
+    button {
+    background-color: #ff1b7b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    
+    button:hover {
+    background-color: #1ABC9C;
+    }
+
+    .icon {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin: 5px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 3rem;
+    }
+
+    .txtIcon{
+        display: block;
+        margin-top: 5px;
+        font-size: 0.9rem;
+
+    }
+    
+  /* Footer Styles */
+    footer {
+    text-align: center;
+    padding: 10px;
+    }
+    
+    .pablo{
+        cursor: pointer;
+        text-decoration: none;
+        color: aqua;
+    }
+
+    a:hover {
+        color: blue;
+    }
+
+    .iconhover:hover{
+        color: green;
+    }
