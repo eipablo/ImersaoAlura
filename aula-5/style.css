@@ -1,0 +1,74 @@
+body {
+    background: url("https://images5.alphacoders.com/132/1329624.png") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: white;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 200px;
+    max-width: 100%;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.conteudo-jogo {
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #FFA500;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.progresso {
+    text-align: right;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.pergunta {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.respostas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.botao-resposta {
+    padding: 10px;
+    background: #FFA500;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.botao-resposta:hover {
+    background: #FF0000;
+    color: white;
+}
+
+.fim {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
